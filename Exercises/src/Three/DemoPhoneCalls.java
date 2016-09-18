@@ -7,8 +7,8 @@ public class DemoPhoneCalls
 {
     public static void main(String[] args)
     {
-        IncomingPhoneCall inCall = new IncomingPhoneCall("0475844994");
-        OutgoingPhoneCall outCall = new OutgoingPhoneCall("0473895554", 10);
+        IncomingPhoneCall inCall = new IncomingPhoneCall("0475844994", 20);
+        OutgoingPhoneCall outCall = new OutgoingPhoneCall("0473895554", 30);
         inCall.getInfo();
         outCall.getInfo();
     }

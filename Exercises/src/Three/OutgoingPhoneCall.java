@@ -15,7 +15,7 @@ public class OutgoingPhoneCall extends PhoneCall
     }
     public void getInfo()
     {
-        System.out.println("Outgoing phone call " +
+        System.out.println("Outgoing " +
                 getPhoneNumber() + " " + RATE +
                 " per minute at " + minutes +
                 " minutes. Total is $" +
